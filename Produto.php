@@ -8,4 +8,12 @@ final class Produto{
         private string $nomeprod,
         private float $preco
     ){}
+
+    public function setNomeprod(){
+        return $this->nomeprod;
+    }
+
+    public function setPreco(){
+        return $this->preco;
+    }
 }
