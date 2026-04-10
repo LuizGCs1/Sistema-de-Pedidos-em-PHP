@@ -9,11 +9,11 @@ final class Cliente{
         private string $email 
     ){}
 
-    public function setNome(): string {
+    public function getNome(): string {
         return $this->nome;
     }
 
-    public function setEmail(): string {
+    public function getEmail(): string {
         return $this->email;
     }
 }
