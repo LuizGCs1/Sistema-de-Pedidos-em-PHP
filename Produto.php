@@ -9,11 +9,11 @@ final class Produto{
         private float $preco
     ){}
 
-    public function getNomeprod(){
+    public function getNomeprod(): string {
         return $this->nomeprod;
     }
 
-    public function getPreco(){
+    public function getPreco(): float {
         return $this->preco;
     }
 }
