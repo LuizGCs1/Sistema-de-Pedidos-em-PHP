@@ -19,5 +19,7 @@ $pedido = new Pedido(1234, "12/04/2026");
 echo "Pedido: " . $pedido->getNumero() . PHP_EOL;
 echo "Data: " . $pedido->getData() . PHP_EOL;
 
+$pedido->adicionarItens($produto, 6);
+
 $item = new ItemPedido($produto, 6);
 echo "Total: R$ " . number_format($item->getSubtotal(), 2, ',', '.') . PHP_EOL; 
