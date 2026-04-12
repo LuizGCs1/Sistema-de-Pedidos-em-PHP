@@ -1,16 +1,15 @@
 <?php 
-
 declare(strict_types=1);
 
 final class Produto{
 
     public function __construct(
-        private string $nomeprod,
+        private string $nome,
         private float $preco
     ){}
 
-    public function getNomeprod(): string {
-        return $this->nomeprod;
+    public function getNome(): string {
+        return $this->nome;
     }
 
     public function getPreco(): float {
