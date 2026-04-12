@@ -7,4 +7,14 @@ final class Pedido
         private string $data
     ) {
     }
+
+    public function getPedidoid(): string
+    {
+        return $this->pedidoid;
+    }   
+
+    public function getData(): string
+    {
+        return $this->data;
+    }
 }

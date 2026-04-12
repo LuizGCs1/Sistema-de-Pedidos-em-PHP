@@ -14,7 +14,7 @@ $produto01 = new Produto("Farinha", 10.00);
 echo "Produto: " .$produto01->getNomeprod() .PHP_EOL;
 echo "Preço: R$ " .number_format($produto01->getPreco(), 2, ",",".").PHP_EOL;
 
-$pedido01 = new Pedido("12345", "2024-06-01");
+$pedido01 = new Pedido("12345", "10/04/2026");
 echo "Pedido ID: " .$pedido01->getPedidoid() .PHP_EOL;
 echo "Data do Pedido: " .$pedido01->getData() .PHP_EOL;
 
