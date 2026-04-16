@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-class ItemPedido {
+final class ItemPedido {
     
 
     public function __construct(
